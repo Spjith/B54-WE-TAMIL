@@ -1,0 +1,30 @@
+1)INTRODUCTION OF HTTP.
+ 
+HTTP in know us HyperText Transfer Protoco. HTTP provides a standard between a web browser and a web server to establish communication. It is a set of rules for transferring data from one computer to another.
+
+
+HTTP.1.1;
+1)The first standardized version of HTTP, HTTP/1.1, was published in early 1997.
+HTTP/1.1 provides faster delivery of web pages and reduces web traffic as compared to HTTP/1.0. However, TCP starts slowly and with domain sharding.
+
+2)It is relatively secure since it uses digest authentication, NTLM authentication.
+
+3)Expands on the caching support by using additional headers like cache-control, conditional headers like If-Match and by using entity tags.
+
+4)HTTP/1.1 provides faster delivery of web pages and reduces web traffic as compared to HTTP/1.0.
+HTTP2;
+1) HTTP/2 was released in 2015 as a major revision to the HTTP/1.1 protocol.
+
+2)Security concerns from previous versions will continue to be seen in HTTP/2. However, it is better equipped to deal with them due to new TLS features like connection error of type Inadequate_Security.
+
+3)HTTP/2 does not change much in terms of caching. With the server push feature if the client finds the resources are already present in the cache, it can cancel the pushed stream.
+
+4)HTTP/2 utilizes multiplexing and server push to effectively reduce the page load time by a greater margin along with being less sensitive to network delays.
+
+OBJECT AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT.
+1)Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+
+2)These objects are quite different from JavaScript’s primitive data-types.
+
+3)Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+
